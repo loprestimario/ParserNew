@@ -28,6 +28,8 @@ class Output {
         }
     }
 
+
+
     public void writePriorityClaims(Map claims) {
         def fw = new FileWriter('src/main/resources/outputClaims.xml')
         def xml = new groovy.xml.MarkupBuilder(fw)
