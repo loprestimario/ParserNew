@@ -9,6 +9,7 @@ package process
  */
 public class Summary {
 
+
     ArrayList summary
 
     public Summary() {
